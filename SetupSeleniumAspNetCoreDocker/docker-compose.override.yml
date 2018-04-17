@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  setupseleniumedocker.ui:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Docker
+    ports:
+      - "8080:80"
+  db:
+    ports:
+      - "1433:1433"
+networks:
+  default:
+    external:
+      name: nat

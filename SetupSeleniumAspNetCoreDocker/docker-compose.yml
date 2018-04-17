@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  setupseleniumedocker.ui:
+    image: setupseleniumedockerui
+    depends_on: 
+      - db
+    build:
+      context: .
+      dockerfile: SetupSeleniumeDocker.UI\Dockerfile
+  db:
+    image: setupseleniumedockerdb
+    expose:
+      - "1433"
+    build:
+      context: ./SetupSeleniumeDocker.DB
+      dockerfile: Dockerfile
+    environment:            
+      SA_PASSWORD: "LogCorner!Docker1#"
+      ACCEPT_EULA: "Y"
+   
+
+
+

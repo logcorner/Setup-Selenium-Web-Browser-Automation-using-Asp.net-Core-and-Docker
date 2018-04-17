@@ -3,3 +3,11 @@
 ################################################################################
 
 /SetupSeleniumAspNetCoreDocker/obj
+/SetupSeleniumAspNetCoreDocker/SetupSeleniumeDocker.UI.Test/bin/Debug/netcoreapp2.0
+/SetupSeleniumAspNetCoreDocker/SetupSeleniumeDocker.UI.Test/obj
+/SetupSeleniumAspNetCoreDocker/TestResults
+/SetupSeleniumAspNetCoreDocker/docker-compose-up.ps1
+/SetupSeleniumAspNetCoreDocker/docker-compose-build.ps1
+/SetupSeleniumAspNetCoreDocker/SetupSeleniumeDocker.UI/bin/Debug/netcoreapp2.0
+/SetupSeleniumAspNetCoreDocker/SetupSeleniumeDocker.UI/obj
+.vs/
